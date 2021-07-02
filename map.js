@@ -7,7 +7,10 @@ $wt.map.render('world-map',{
     countries: [{
       data: ["EU28"],
       options: {
-        color: "#f93"
+        color: "#f93",
+        events: {
+          "hover" : "<b>{CNTR_NAME}</b>"
+        }
       }
     }]
   }
