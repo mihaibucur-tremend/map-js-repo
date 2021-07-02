@@ -9,6 +9,7 @@ $wt.map.render('world-map',{
       options: {
         color: "#f93",
         events: {
+          "click" : "https://www.google.ro",
           "tooltip" : "<b>{CNTR_NAME}</b>"
         }
       }
