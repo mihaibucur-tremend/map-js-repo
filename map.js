@@ -9,7 +9,7 @@ $wt.map.render('world-map',{
       options: {
         color: "#f93",
         events: {
-          "hover" : "<b>{CNTR_NAME}</b>"
+          "tooltip" : "<b>{CNTR_NAME}</b>"
         }
       }
     }]
